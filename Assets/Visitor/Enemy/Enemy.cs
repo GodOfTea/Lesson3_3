@@ -3,8 +3,13 @@ using UnityEngine;
 
 namespace Assets.Visitor
 {
+    [Serializable]
     public abstract class Enemy: MonoBehaviour
     {
+        [SerializeField] private EnemyConfig _enemyConfig;
+        
+        public EnemyConfig Data => _enemyConfig;
+        
         public event Action<Enemy> Died;
         //Какая то общая логика врага: передвижение, жизни и тп.
 

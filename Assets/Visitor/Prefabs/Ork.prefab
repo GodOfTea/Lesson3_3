@@ -110,3 +110,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5debae8f65b35414faa28159aec3936a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _enemyConfig:
+    _weight: 6
